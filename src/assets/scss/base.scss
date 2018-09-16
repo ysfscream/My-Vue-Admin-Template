@@ -1,0 +1,41 @@
+html, body, #app {
+  height: 100%;
+  margin: 0;
+}
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei,
+    Arial, sans-serif;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+}
+a {
+  text-decoration: none;
+  color: #409EFF;
+}
+a:hover {
+  color: #077DF7;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* element-ui */
+.el-card {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+.el-pagination {
+  margin-top: 20px;
+  text-align: right;
+}
+.el-select {
+  width: 100%;
+}
+.el-date-editor.el-input, .el-date-editor.el-input__inner {
+  width: 100% !important;
+}
